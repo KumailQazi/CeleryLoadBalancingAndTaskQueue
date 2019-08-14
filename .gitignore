@@ -1,0 +1,6 @@
+dist
+build
+pbix
+.vscode
+pbixrefresher.egg-info
+.txt
