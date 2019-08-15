@@ -2,7 +2,7 @@
 task_serializer = 'json'
 result_serializer = 'json'
 accept_content = ['json']
-timezone = 'Europe/Oslo'
+timezone = 'Pakistan Standard Time'
 enable_utc = True
 
 task_annotations = {
