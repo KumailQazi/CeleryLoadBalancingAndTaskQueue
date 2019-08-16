@@ -1,5 +1,10 @@
 Working with celery - Distributed Task Queue
 
+When can we use a task queue?
+-It can be used when the work (task) can be run asynchronously.
+-In a distributed system context.
+-It gives you asymmetric architecture.
+
 What it does?
 The task queue distributes work across threads or machines.
 Dedicated worker processes constantly monitor task queues to perform new work.
