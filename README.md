@@ -19,3 +19,22 @@ It can run on single machine, multiple machines or even across data centers. It 
 
 What it requires?
 It requires message transport to send and receive messages. For e.g. RabbitMQ and Reddis or SQlite for local development.
+
+Application:
+This is a simple celery application that creates celery instance (it is used in creating task and managing workers). Here we are calling the add task to perform work and then storing and printing the result in the result variable.
+
+Screenshot
+Celery Worker
+
+
+Technology Stack
+Application: Python, Celery, RabbitMQ
+
+How to run locally
+Download RabbitMQ
+
+Install the dependencies
+pip install celery
+
+In a new terminal run Celery worker
+$ celery -A tasks worker -l info
