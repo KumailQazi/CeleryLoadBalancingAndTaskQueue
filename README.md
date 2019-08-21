@@ -25,13 +25,13 @@ This is a simple celery application that creates celery instance (it is used in 
 
 Screenshot
 Celery Worker
-
+Image 2
 
 Technology Stack
 Application: Python, Celery, RabbitMQ
 
 How to run locally
-Download RabbitMQ
+Download https://www.rabbitmq.com/download.html
 
 Install the dependencies
 pip install celery
