@@ -13,3 +13,6 @@ def add(x, y):
 # Calling task and storing result
 result = add.delay(4, 4)
 print(result)
+
+apply_asyncresult = add.apply_async((2,2), queue='lopri', countdown=10)
+print(apply_asyncresult)
