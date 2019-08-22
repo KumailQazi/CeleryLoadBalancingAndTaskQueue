@@ -38,3 +38,8 @@ pip install celery
 
 In a new terminal run Celery worker
 $ celery -A tasks worker -l info
+
+If you get value error "ValueError: not enough values to unpack (expected 3, got 0)"
+Do following
+pip install gevent
+celery -A <module> worker -l info -P gevent
