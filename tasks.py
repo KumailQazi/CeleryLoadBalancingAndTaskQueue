@@ -2,7 +2,7 @@ from celery import Celery
 
 app = Celery('tasks', backend='rpc://', broker='pyamqp://guest@localhost//')
 
-# Creating a task instance
+# Setting up backend configuration.
 app.config_from_object('celeryconfig')
 
 # Defining a single task called add.
